@@ -1,0 +1,25 @@
+
+
+.Header{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    margin-inline: 50px;
+    background-color: antiquewhite;
+    color: blue;
+    text-decoration-color: aquamarine;
+}
+main{
+    color: pink;
+}
+
+.ContactForm{
+    color: pink;
+}
+
+
+
+

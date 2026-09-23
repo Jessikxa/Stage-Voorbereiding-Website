@@ -1,0 +1,5 @@
+for header -> will probably keep it simple and have just the text in a nice font. not making the links look like buttons
+
+
+specify with main is from which page by naming a class with page file included
+
