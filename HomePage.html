@@ -7,17 +7,58 @@
     <title>Stage Website</title>
 </head>
 <body>
-    <header>
-        <a href="AboutMe.html">About Me</a>
-        <a href="Services.html">Services</a>
-        <a href="Contact.html">Contact</a>
-    </header>
     
-    <main>
-        <h1>Design you're forever home</h1>
-        <img src="img/placeholder home page hero section.jpg" alt="">
+    
+    <main >
+        
+        <div class="hero" id="hero">
+            <div class="header">
+                <a href="HomePage.html">Home</a>
+                <a href="AboutMe.html">About Us</a>
+                <a href="Services.html">Services</a>
+                <a href="Projects.html">Projects</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+
+
+            <div class="heroContent">
+                <h1>Design you're forever home</h1>
+                <button onclick="ScrollAnimation()"><a  class ="btn">Book an appointment</a></button>
+                <!-- <img src="img/placeholder home page hero section.jpg" alt=""> -->
+            </div>
+        </div>
+
+        <div class="homeAboutMe" id="aboutMe">
+            <div>
+                <h1>About Company</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae itaque expedita quo officia culpa iste dignissimos, eos ullam quaerat, ad maxime consequatur? Doloremque reprehenderit debitis recusandae ea libero dolores!</p>
+                <p>Here at company-name we make designs that last. Learn more</p>
+            </div>
+        </div>
+
+        <div class="homeServices" id="Services">
+            <h1>Services</h1>
+            <p>What are you looking for?</p>
+        </div>
+
+        <div class="Projects" id="projects">
+            <div class="projectsContent">
+                <h1>See some of our previous work</h1>
+                <button class="pButton"><a href="Projects.html">see projects</a></button>
+            </div>
+        </div>
+        
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer" id="footer">
+            <p>Contact us at</p>
+            <p>Phone number: 0123456789</p>
+            <p>email: email@email.com</p> <br>
+            <button><a href="Contact.html">Contact</a></button>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

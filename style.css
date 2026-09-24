@@ -1,16 +1,23 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
 .Header{
     display: flex;
     align-content: space-between;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     text-align: center;
     padding-top: 50px;
     margin-inline: 50px;
-    background-color: antiquewhite;
-    color: blue;
-    text-decoration-color: aquamarine;
+    display: flex;
+    
+
+    padding: 20px;
 }
 main{
     color: pink;
@@ -18,6 +25,80 @@ main{
 
 .ContactForm{
     color: pink;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    justify-items: right;
+
+    padding: 20px;
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url(img/rod-long-2P_ifaetDm0-unsplash.jpg);
+    background-size: cover;
+}
+
+
+.heroContent{
+    display: flex;
+    align-content: center;
+    align-items:center;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    vertical-align: baseline;
+    font-size: 50px;
+    
+}
+
+.homeAboutMe{
+    padding: 50px;
+    display: block;
+
+}
+
+.homeServices{
+    padding: 50px;
+}
+
+.aboutMe{
+    padding-top: 30px;
+}
+
+.aboutMe img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-fill;
+
+    
+}
+
+.Projects{
+    padding: 300px;
+    background-image: url(img/clay-banks-R4Kz9SNajR8-unsplash.jpg);
+    background-size: cover;
+    background-position: 0%;
+}
+
+.projectsContent{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 50px;
+}
+/* .projectsContent.button{
+    size: 25px;
+} */
+.pButton{
+    size: 25px;
+}
+
+.footer{
+    padding: 150px;
 }
 
 
