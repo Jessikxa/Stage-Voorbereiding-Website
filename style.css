@@ -13,8 +13,54 @@ main{
 }
 
 .ContactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    padding-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    /* background-color: thistle; */
     color: pink;
+    
 }
+.ContactForm h1{
+    font-size: 40px;
+    padding: 30px;
+}
+
+.form{
+    padding: 15px;
+    margin: 15px;
+    /* background-color: #DDDDDD; */
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid palevioletred;
+}
+.form input[type = 'submit']{
+    border: yellow;
+}
+/* Removes input border when clicked on/when active*/
+.form textarea:focus, input:focus{
+    outline: none;
+}
+
+/* submit form stand out */
+.form input[type = 'submit']{
+    border: 0.2px solid palevioletred;
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    margin: 50px;
+}
+
+
 .Header{
     display: flex;
     align-content: space-between;
@@ -84,7 +130,7 @@ display: inline-block;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    color: plum;
+    color: white;
     background-color: transparent;
     text-align: center;
     transition: all 0.15s;
