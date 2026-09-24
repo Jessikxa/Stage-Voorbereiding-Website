@@ -6,6 +6,15 @@
 html{
     scroll-behavior: smooth;
 }
+
+
+main{
+    color: pink;
+}
+
+.ContactForm{
+    color: pink;
+}
 .Header{
     display: flex;
     align-content: space-between;
@@ -19,21 +28,24 @@ html{
 
     padding: 20px;
 }
-main{
-    color: pink;
-}
 
-.ContactForm{
+.Header a{
+    text-decoration: none;
     color: pink;
+    padding: 10px;
 }
-
 .header{
     display: flex;
     align-items: center;
     justify-content: right;
     justify-items: right;
-
+    
     padding: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: pink;
+    padding: 10px;
 }
 
 .hero{
@@ -45,25 +57,79 @@ main{
 
 .heroContent{
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    align-content:  space-between;
     align-items:center;
     justify-items: center;
     justify-content: center;
-    padding-top: 250px;
-    vertical-align: baseline;
+    padding-top: 300px;
     font-size: 50px;
+
+    padding-bottom: 350px;
     
+    
+}
+.heroContent h1{
+    padding-bottom: 15px;
+    
+}
+
+.homeBtn{
+display: inline-block;
+    padding: 0.5em 3em;
+    border: 0.16em solid palevioletred;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: plum;
+    background-color: transparent;
+    text-align: center;
+    transition: all 0.15s;
+
+}
+
+.homeBtn:hover{
+    color: #DDDDDD;
+    border-color: #DDDDDD;
+}
+.homeBtn a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .homeAboutMe{
     padding: 50px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: palevioletred;
 
+}
+.homeAboutMe h1{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 
 .homeServices{
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: peachpuff;
+    color: palevioletred;
 }
+
 
 .aboutMe{
     padding-top: 30px;
@@ -77,8 +143,10 @@ main{
     
 }
 
-.Projects{
-    padding: 300px;
+.homeProjects{
+    padding: 200px;
+    padding-top: 300px;
+    padding-bottom: 300px;
     background-image: url(img/clay-banks-R4Kz9SNajR8-unsplash.jpg);
     background-size: cover;
     background-position: 0%;
@@ -86,19 +154,20 @@ main{
 
 .projectsContent{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    font-size: 50px;
+    align-items: center;
+    font-size: 40px;
 }
-/* .projectsContent.button{
-    size: 25px;
-} */
-.pButton{
-    size: 25px;
-}
+
+
 
 .footer{
     padding: 150px;
+    background-color: antiquewhite;
+}
+.parBigger{
+    font-size: 25px;
 }
 
 
