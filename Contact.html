@@ -23,22 +23,32 @@
     <main>
         <div class="ContactForm">
              <h1>Contact</h1>
+
             <form action="" class="form">
 
                 <p>First Name</p>
-                <input type="text" id="First-Name"> <br>
+                <input type="text" id="First-Name" required> <br>
                 <p>Last Name</p>
-                <input type="text" name="Last-Name" id="Last-Name"> <br>
+                <input type="text" name="Last-Name" id="Last-Name" required> <br>
                 <p>Email</p>
-                <input type="email" name="User-Email" id=""><br>
+                <input type="email" name="User-Email" id="Email" required><br>
                 
                 <P>Budget</P>
-                <div class="Budget">
-                    <input value="€" autofocus="autofocus"> 
-                    <span class="unit">€</span>
+                <div class="Budget" required>
+                    <input type="text" value="€" autofocus="autofocus" id="Budget" required> 
+                    <span class="unit" ></span>
                     
                 </div> <br>
-                <input type="checkbox">Do you want to receive marketing emails? <br> <br>
+
+                <label for="Services">Choose your service</label> <br>
+                <select name="Service" id="Service" required>
+                    <option value="New Build">New Build project</option>
+                    <option value="Remodel">Remodel project</option>
+                    <option value="One Room">one room project</option>
+                </select> <br>
+
+                <p>Do you want to receive marketing emails?</p>
+                <input type="checkbox"><br> <br>
                 <input type="submit" class="submitForm">
                 
             </form>

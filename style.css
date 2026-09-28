@@ -80,6 +80,10 @@ main{
     color: pink;
     padding: 10px;
 }
+.Header button{
+    border: none;
+    background-color: transparent;
+}
 .header{
     display: flex;
     align-items: center;
@@ -87,6 +91,10 @@ main{
     justify-items: right;
     
     padding: 20px;
+}
+.header button{
+    border: none;
+    background-color: transparent;
 }
 .header a{
     text-decoration: none;
@@ -176,6 +184,15 @@ display: inline-block;
     color: palevioletred;
 }
 
+.serviceContent{
+    display: flex;
+    padding: 20px;
+    padding-top: 40px;
+    
+}
+/* .newBuild{
+    padding-right: 15px;
+} */
 
 .aboutMe{
     padding-top: 30px;
@@ -205,6 +222,13 @@ display: inline-block;
     align-items: center;
     font-size: 40px;
 }
+
+/* .ProjectPictures{
+    display: grid;
+  grid-template-columns: 1 auto auto;
+  
+  padding: 10px;
+} */
 
 
 
